@@ -1,0 +1,25 @@
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outer-frame {
+  background-color: white;
+  padding: 20px;
+  border: 10px solid white;
+}
+
+.inner-frame {
+  background-color: black;
+  padding: 30px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border: 10px solid white;
+  display: block;
+}

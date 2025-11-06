@@ -1,0 +1,68 @@
+p[id='paragraph'] {
+    color: blue;
+}
+/* body {
+  background: #f0f0f0 url("assets/IMG20240405191349.jpg") no-repeat center top fixed;
+  width: 50%;
+
+  background-image: url(assets/IMG20240405191349.jpg);
+    background-position: center;
+    background-size: cover;
+} */
+
+/* p{
+    width: 200px;
+}
+p::first-letter{
+    background-color: red;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    background-color: black;
+    color: white;
+}
+p::after{
+    content: " - This is after the paragraph.";
+    color: green;
+}
+p::before{
+    content: "This is before the paragraph. ";
+    color: orange;
+} */
+
+div{
+    width: 400px;
+    /* background-color: limegreen; */
+    /* padding: 20px 30px 40px 50px ; */
+    /* margin: 20px 30px 40px 50px ; */
+    /* height: 500px;
+    background-image: url(assets/IMG20240405191349.jpg);
+    background-position: center;
+    background-size: cover; */
+    
+}
+
+#bl{
+    background-color: yellow;
+    display: inline;
+}
+
+#in{
+    background-color: pink;
+    display:inline-block;
+    width: 200px;
+}
+.con{
+    border: 2px solid black;
+   width: 400px;
+   height: 200px;
+   display: flex;
+   gap: 8px;
+}
+.text{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
